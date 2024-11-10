@@ -4,7 +4,7 @@ import * as cheerio from 'cheerio';
 
 const app = express();
 
-app.get('/orders', async (req, res) => {
+app.get('/', async (req, res) => {
   const startTime = Date.now();
 
   try {
